@@ -1,4 +1,4 @@
-# Tiya Jain — Portfolio (frontend only)
+# Tiya Jain — Portfolio
 
 React + TypeScript + Vite. No backend needed: the contact form uses Web3Forms.
 
@@ -20,12 +20,6 @@ npm run dev               # http://localhost:5173
 - Project cards with 3D tilt and full-screen case studies (Back button always visible, Esc also closes)
 - Press **Ctrl K** (⌘K on Mac) to jump to any section
 
-## Where to edit
-- Links: `src/data/config.ts`
-- Projects, stack, internship, achievements: `src/data/portfolio.ts`
-- Photo: `public/photo.jpg`
-
-There is deliberately no resume file and no email address anywhere on the site. Visitors reach you through the form, LinkedIn or GitHub.
 
 ## Deploy
 Push to GitHub, import the repo on Vercel (framework: Vite), add `VITE_WEB3FORMS_KEY`.
